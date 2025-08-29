@@ -1,0 +1,3986 @@
+[
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            32,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.016740849349714284,
+        "avg_train_loss": 0.01607337952763946
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            32,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.016745642763895112,
+        "avg_train_loss": 0.015570441072944691
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            32,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.017607418258142257,
+        "avg_train_loss": 0.016490106160442036
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            64,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.015918353161708053,
+        "avg_train_loss": 0.014924276735702596
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            64,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.016558502584562772,
+        "avg_train_loss": 0.014896243308774298
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            64,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.016289086104370652,
+        "avg_train_loss": 0.015010777229650154
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            64,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.017078206763004086,
+        "avg_train_loss": 0.01562920846734886
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            64,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.016595869078966125,
+        "avg_train_loss": 0.015326872174800546
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            64,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.017616930409401124,
+        "avg_train_loss": 0.016226530871871446
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.015192144231072494,
+        "avg_train_loss": 0.013772349406240714
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.015498096911635784,
+        "avg_train_loss": 0.014509826781297173
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.01565082672085347,
+        "avg_train_loss": 0.014058277702510908
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.016189901587287232,
+        "avg_train_loss": 0.014582459971791617
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.015450820928838638,
+        "avg_train_loss": 0.014335197201688531
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.015466132038272917,
+        "avg_train_loss": 0.014134328620922235
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.015632384912376958,
+        "avg_train_loss": 0.01481494887869943
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.016287433114900652,
+        "avg_train_loss": 0.015214178435228487
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.016800283728766123,
+        "avg_train_loss": 0.01573673041226963
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            128,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.016832412759374294,
+        "avg_train_loss": 0.015874709671846142
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.013467471479504767,
+        "avg_train_loss": 0.011759442023725973
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.013905159811422763,
+        "avg_train_loss": 0.012443852212486995
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.014132263022474945,
+        "avg_train_loss": 0.012362565245065424
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.01466352289675602,
+        "avg_train_loss": 0.013123429728740896
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.01534671109901475,
+        "avg_train_loss": 0.01408514726424107
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.015131285678528783,
+        "avg_train_loss": 0.013420337888722617
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.015396127788283465,
+        "avg_train_loss": 0.013778729572961173
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.015117926873998452,
+        "avg_train_loss": 0.013813673282318093
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.01590691568895376,
+        "avg_train_loss": 0.014382941900166096
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.015209125065510826,
+        "avg_train_loss": 0.013770630698720063
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.015107126999646425,
+        "avg_train_loss": 0.013756579976459895
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.015154158538540024,
+        "avg_train_loss": 0.014227107519076928
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.0160907200953391,
+        "avg_train_loss": 0.01489043109877794
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.016025366249959917,
+        "avg_train_loss": 0.014890091091877333
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            256,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.01641038868443242,
+        "avg_train_loss": 0.01555521707912838
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            512
+        ],
+        "avg_val_loss": 0.013575215379907085,
+        "avg_train_loss": 0.01164429163629258
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            256
+        ],
+        "avg_val_loss": 0.013355769162964343,
+        "avg_train_loss": 0.011482765484187337
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            128
+        ],
+        "avg_val_loss": 0.012937521616861755,
+        "avg_train_loss": 0.010975319076398456
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            64
+        ],
+        "avg_val_loss": 0.013926818178567502,
+        "avg_train_loss": 0.012149404577427992
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            32
+        ],
+        "avg_val_loss": 0.013548152080537484,
+        "avg_train_loss": 0.01181353220578145
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            16
+        ],
+        "avg_val_loss": 0.014036224418253241,
+        "avg_train_loss": 0.012684790753862923
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.013135154493751803,
+        "avg_train_loss": 0.011135263451271585
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.014344793345246996,
+        "avg_train_loss": 0.01284060795377526
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.01402205607155338,
+        "avg_train_loss": 0.012229532936449957
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.01436774827806013,
+        "avg_train_loss": 0.012708076556144216
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.014314569509588182,
+        "avg_train_loss": 0.01301213032393544
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.016545088940100476,
+        "avg_train_loss": 0.012909056385979056
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.014566350803111814,
+        "avg_train_loss": 0.013083793402270037
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.01540903707167932,
+        "avg_train_loss": 0.013805865010039673
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.015070218320137687,
+        "avg_train_loss": 0.014077186375787412
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.015627362767034872,
+        "avg_train_loss": 0.013907090088145602
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.015348430243985994,
+        "avg_train_loss": 0.013964024156814924
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.01449993800238839,
+        "avg_train_loss": 0.01310432129022148
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.015316548742287394,
+        "avg_train_loss": 0.014084903878608234
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.015662475103246313,
+        "avg_train_loss": 0.014578807819634675
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            512,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.015997795175228802,
+        "avg_train_loss": 0.014670219982939738
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            1024
+        ],
+        "avg_val_loss": 0.012140207936421834,
+        "avg_train_loss": 0.010042458295787648
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            512
+        ],
+        "avg_val_loss": 0.012229567218206025,
+        "avg_train_loss": 0.009984630993050006
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            256
+        ],
+        "avg_val_loss": 0.012128541017383603,
+        "avg_train_loss": 0.010312429370565547
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            128
+        ],
+        "avg_val_loss": 0.012759310452799714,
+        "avg_train_loss": 0.010639082588669326
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            64
+        ],
+        "avg_val_loss": 0.012665194164895055,
+        "avg_train_loss": 0.01090741994169851
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            32
+        ],
+        "avg_val_loss": 0.013496169544357273,
+        "avg_train_loss": 0.011621324450674434
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            16
+        ],
+        "avg_val_loss": 0.013401103545246379,
+        "avg_train_loss": 0.011420211982395914
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            512
+        ],
+        "avg_val_loss": 0.012862693026129687,
+        "avg_train_loss": 0.01081604456908449
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            256
+        ],
+        "avg_val_loss": 0.012049969190931214,
+        "avg_train_loss": 0.010228183630991866
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            128
+        ],
+        "avg_val_loss": 0.01324872762363936,
+        "avg_train_loss": 0.011674464190447773
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            64
+        ],
+        "avg_val_loss": 0.01354487171130521,
+        "avg_train_loss": 0.011721445697670179
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            32
+        ],
+        "avg_val_loss": 0.014106762520636298,
+        "avg_train_loss": 0.012089982639170355
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            16
+        ],
+        "avg_val_loss": 0.013419796115652258,
+        "avg_train_loss": 0.011864169954356771
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.013742501772607543,
+        "avg_train_loss": 0.011826176594735848
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.012913851657815811,
+        "avg_train_loss": 0.011248312937095762
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.013941786383345192,
+        "avg_train_loss": 0.01229111653994079
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.01420341858507267,
+        "avg_train_loss": 0.012709901368038522
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.014630474565949823,
+        "avg_train_loss": 0.01309548869246134
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.013987122545950114,
+        "avg_train_loss": 0.012288895523589517
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.014429895262998926,
+        "avg_train_loss": 0.012484342177157048
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.014625784716502365,
+        "avg_train_loss": 0.013057998202189253
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.015183893601144,
+        "avg_train_loss": 0.01365398374834546
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.014266914048598015,
+        "avg_train_loss": 0.01286153176592456
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.014521761118833507,
+        "avg_train_loss": 0.01315973753247548
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.01457100968774674,
+        "avg_train_loss": 0.012981085580152771
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.014873914066369513,
+        "avg_train_loss": 0.01381149322518872
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.015115514896543964,
+        "avg_train_loss": 0.01375873342880772
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 4,
+        "units": [
+            1024,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.015987153196640843,
+        "avg_train_loss": 0.014916477516224538
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            32,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.015322650411898005,
+        "avg_train_loss": 0.014239041184730553
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            32,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.016220919220774833,
+        "avg_train_loss": 0.015325688891526726
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            32,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.017351784759999385,
+        "avg_train_loss": 0.015992896343339925
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            64,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.01524990052816325,
+        "avg_train_loss": 0.0135071805316127
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            64,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.014868440380918663,
+        "avg_train_loss": 0.013648147684418493
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            64,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.015692088219137597,
+        "avg_train_loss": 0.014226855430752038
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            64,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.015633074061146803,
+        "avg_train_loss": 0.014150057410545373
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            64,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.015755641964330734,
+        "avg_train_loss": 0.014615742263763592
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            64,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.01576725899774049,
+        "avg_train_loss": 0.01434245465012888
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.013387132153314139,
+        "avg_train_loss": 0.011962965951749574
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.013863128525138435,
+        "avg_train_loss": 0.012203262601461675
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.015329906264586107,
+        "avg_train_loss": 0.013635158807867104
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.014450518687122636,
+        "avg_train_loss": 0.013144667544919586
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.015056387622774179,
+        "avg_train_loss": 0.014019523341967552
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.014979260935381586,
+        "avg_train_loss": 0.013718511829911559
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.015379099732464444,
+        "avg_train_loss": 0.013871018485062652
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.014824504675509938,
+        "avg_train_loss": 0.013673706773530556
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.01601857537503487,
+        "avg_train_loss": 0.01464014923441465
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            128,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.01592870054467182,
+        "avg_train_loss": 0.014405125962501323
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.01281239803897084,
+        "avg_train_loss": 0.01115152260668024
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.01287469905468502,
+        "avg_train_loss": 0.011465547590826948
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.013219009160197207,
+        "avg_train_loss": 0.011470909813349996
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.0136027247012992,
+        "avg_train_loss": 0.012196632381528617
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.013938974407834134,
+        "avg_train_loss": 0.012230605999421742
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.013875545538862102,
+        "avg_train_loss": 0.012168730909211768
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.014248905267699489,
+        "avg_train_loss": 0.012603096458715973
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.014476569815139687,
+        "avg_train_loss": 0.012888192832125006
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.014463070653645058,
+        "avg_train_loss": 0.012840050269194223
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.014217607331063068,
+        "avg_train_loss": 0.012893308693956999
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.01472254467163501,
+        "avg_train_loss": 0.013315483693171431
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.014965045728188539,
+        "avg_train_loss": 0.013233216400085776
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.014521462919323571,
+        "avg_train_loss": 0.013155418311901113
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.014531656961688505,
+        "avg_train_loss": 0.013036355238269876
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            256,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.015614644240122289,
+        "avg_train_loss": 0.013801593369700844
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            512
+        ],
+        "avg_val_loss": 0.012600508530990087,
+        "avg_train_loss": 0.010549088967619118
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            256
+        ],
+        "avg_val_loss": 0.012403907344975908,
+        "avg_train_loss": 0.010688362367175245
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            128
+        ],
+        "avg_val_loss": 0.011891275740760779,
+        "avg_train_loss": 0.009979349057431575
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            64
+        ],
+        "avg_val_loss": 0.012689598044380546,
+        "avg_train_loss": 0.010870981140545122
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            32
+        ],
+        "avg_val_loss": 0.013197173366123544,
+        "avg_train_loss": 0.011386712985458198
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            16
+        ],
+        "avg_val_loss": 0.013264043068712844,
+        "avg_train_loss": 0.01136142639270811
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.012385902217023872,
+        "avg_train_loss": 0.01060691740260356
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.013418705769748027,
+        "avg_train_loss": 0.011615162930037413
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.01293410937484753,
+        "avg_train_loss": 0.011355771536559419
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.013309215014201722,
+        "avg_train_loss": 0.011960530776047596
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.013541714369785041,
+        "avg_train_loss": 0.011883100958679008
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.01415119406800451,
+        "avg_train_loss": 0.012143744491213174
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.01398003063763359,
+        "avg_train_loss": 0.011942884229399538
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.013732411181886815,
+        "avg_train_loss": 0.011957000249444887
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.013884575194346585,
+        "avg_train_loss": 0.012214834037823257
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.013893616282647212,
+        "avg_train_loss": 0.0122899881667561
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.015026769965022271,
+        "avg_train_loss": 0.013030298561271695
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.014818274499183257,
+        "avg_train_loss": 0.013084866254831906
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.015140169073960614,
+        "avg_train_loss": 0.01367759341546507
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.015523043359696334,
+        "avg_train_loss": 0.013464858593350207
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            512,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.015453847713901531,
+        "avg_train_loss": 0.013958600187605178
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            1024
+        ],
+        "avg_val_loss": 0.011511798116511531,
+        "avg_train_loss": 0.008979247095649717
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            512
+        ],
+        "avg_val_loss": 0.012350330168348073,
+        "avg_train_loss": 0.010362497668851306
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            256
+        ],
+        "avg_val_loss": 0.013338617449127404,
+        "avg_train_loss": 0.011251832199869333
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            128
+        ],
+        "avg_val_loss": 0.012014300345409928,
+        "avg_train_loss": 0.01008726605559113
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            64
+        ],
+        "avg_val_loss": 0.012360087371364768,
+        "avg_train_loss": 0.010558040852279025
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            32
+        ],
+        "avg_val_loss": 0.01193301522206249,
+        "avg_train_loss": 0.009927528868946763
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            16
+        ],
+        "avg_val_loss": 0.013077211273568017,
+        "avg_train_loss": 0.011476625541776971
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            512
+        ],
+        "avg_val_loss": 0.011445222132273818,
+        "avg_train_loss": 0.008969861719998772
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            256
+        ],
+        "avg_val_loss": 0.011616666076172675,
+        "avg_train_loss": 0.009673625718008864
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            128
+        ],
+        "avg_val_loss": 0.011856687188680683,
+        "avg_train_loss": 0.009865481822096088
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            64
+        ],
+        "avg_val_loss": 0.013385699050767082,
+        "avg_train_loss": 0.011334649066406268
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            32
+        ],
+        "avg_val_loss": 0.013004460403629181,
+        "avg_train_loss": 0.011258924295435901
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            16
+        ],
+        "avg_val_loss": 0.012875091316943454,
+        "avg_train_loss": 0.011113101112897747
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.0127014422306924,
+        "avg_train_loss": 0.010922171535936217
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.012859488189652829,
+        "avg_train_loss": 0.011289198815615641
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.012840600379942252,
+        "avg_train_loss": 0.011030732862720336
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.013213837068594459,
+        "avg_train_loss": 0.01129038658303519
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.013622831756947562,
+        "avg_train_loss": 0.011995129742556149
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.013090214557347022,
+        "avg_train_loss": 0.01152344903977657
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.013516669732052834,
+        "avg_train_loss": 0.011705946732588388
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.012961489179204883,
+        "avg_train_loss": 0.011191979876753909
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.0142726778485147,
+        "avg_train_loss": 0.012491629764230714
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.013864761978454357,
+        "avg_train_loss": 0.012263060393915686
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.013785622712956474,
+        "avg_train_loss": 0.01250606308242789
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.014269813911856286,
+        "avg_train_loss": 0.012973538625778422
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.01450581395100536,
+        "avg_train_loss": 0.013064098064960155
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.01456210571174909,
+        "avg_train_loss": 0.013437475548643201
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 32,
+        "heads": 8,
+        "units": [
+            1024,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.015036233615994987,
+        "avg_train_loss": 0.013576501756216641
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            32,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.015579273170858087,
+        "avg_train_loss": 0.014367086238538227
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            32,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.015522779795407716,
+        "avg_train_loss": 0.014336577411396084
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            32,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.01632031199655363,
+        "avg_train_loss": 0.015327706251776329
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            64,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.014931383519433438,
+        "avg_train_loss": 0.013654258284993745
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            64,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.016661648660166457,
+        "avg_train_loss": 0.015021049864245234
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            64,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.015504256158601492,
+        "avg_train_loss": 0.014276864914292536
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            64,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.016678017632304025,
+        "avg_train_loss": 0.014891602868145263
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            64,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.015249468005328837,
+        "avg_train_loss": 0.013910340847171566
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            64,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.015993946760759825,
+        "avg_train_loss": 0.014983461400562966
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.01396676064136305,
+        "avg_train_loss": 0.012204421284022157
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.013987947428332908,
+        "avg_train_loss": 0.01254161726510911
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.014293267050691482,
+        "avg_train_loss": 0.012930984720932664
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.015201761463790067,
+        "avg_train_loss": 0.013651261137177548
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.014523729785910941,
+        "avg_train_loss": 0.013080009376561199
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.014876771177763917,
+        "avg_train_loss": 0.013211773526509879
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.015428766115967718,
+        "avg_train_loss": 0.013819223066308983
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.014773054991383105,
+        "avg_train_loss": 0.013228164259689274
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.015132790527838683,
+        "avg_train_loss": 0.013887905319117839
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            128,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.015552526040534887,
+        "avg_train_loss": 0.014188487869169977
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.012949473315217933,
+        "avg_train_loss": 0.011229543825956406
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.013134578036676562,
+        "avg_train_loss": 0.011552807880151604
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.013557196230561072,
+        "avg_train_loss": 0.012053364604987479
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.013642911837502783,
+        "avg_train_loss": 0.01200355519713075
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.014398351387353615,
+        "avg_train_loss": 0.012697000936087634
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.01355057434661181,
+        "avg_train_loss": 0.011969027944185116
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.01334968143492006,
+        "avg_train_loss": 0.011954091177149503
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.014213905420287378,
+        "avg_train_loss": 0.012944369425100308
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.014747307853706712,
+        "avg_train_loss": 0.013159813424917283
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.013968974406764442,
+        "avg_train_loss": 0.012697253148588869
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.015576267678157557,
+        "avg_train_loss": 0.014214739396616266
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.014715608443865288,
+        "avg_train_loss": 0.013646193843817822
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.014547652955765702,
+        "avg_train_loss": 0.013489703806462111
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.014857126037324114,
+        "avg_train_loss": 0.013342927603258026
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            256,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.01568464825229187,
+        "avg_train_loss": 0.014483476404307616
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            512
+        ],
+        "avg_val_loss": 0.011554605965336253,
+        "avg_train_loss": 0.00920347842577569
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            256
+        ],
+        "avg_val_loss": 0.012157994901229228,
+        "avg_train_loss": 0.010085741054542638
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            128
+        ],
+        "avg_val_loss": 0.012232890288578347,
+        "avg_train_loss": 0.010168938733706319
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            64
+        ],
+        "avg_val_loss": 0.01241555481600309,
+        "avg_train_loss": 0.010484994180431521
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            32
+        ],
+        "avg_val_loss": 0.013043711147370882,
+        "avg_train_loss": 0.011224932297719297
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            512,
+            16
+        ],
+        "avg_val_loss": 0.013206687513073639,
+        "avg_train_loss": 0.01160575670052182
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.012070017294692141,
+        "avg_train_loss": 0.010060129180136653
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.012754096449186491,
+        "avg_train_loss": 0.010785526508051488
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.013107786417406583,
+        "avg_train_loss": 0.011334482739093127
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.013002320500423334,
+        "avg_train_loss": 0.011407716341178726
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.013947053266955275,
+        "avg_train_loss": 0.012512307715843673
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.012783091215948974,
+        "avg_train_loss": 0.010977312755184595
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.01274231894640252,
+        "avg_train_loss": 0.011174861487449594
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.013309600150179382,
+        "avg_train_loss": 0.011799084205456353
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.014050908964626223,
+        "avg_train_loss": 0.012633520444096238
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.015222585084848106,
+        "avg_train_loss": 0.012906727708738158
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.013863608390758082,
+        "avg_train_loss": 0.012296417910881615
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.013878951730605748,
+        "avg_train_loss": 0.012561096658033354
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.014567477886365462,
+        "avg_train_loss": 0.0132273287270908
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.015565961383150093,
+        "avg_train_loss": 0.014093094941711537
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            512,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.01598398377453642,
+        "avg_train_loss": 0.014175693652834054
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            1024
+        ],
+        "avg_val_loss": 0.011601479620938854,
+        "avg_train_loss": 0.009323434345424176
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            512
+        ],
+        "avg_val_loss": 0.012068950291723012,
+        "avg_train_loss": 0.009976316458131703
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            256
+        ],
+        "avg_val_loss": 0.012076998936078909,
+        "avg_train_loss": 0.009735569344936973
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            128
+        ],
+        "avg_val_loss": 0.011619474960856937,
+        "avg_train_loss": 0.009489822060870077
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            64
+        ],
+        "avg_val_loss": 0.013050937398137258,
+        "avg_train_loss": 0.011462002663217761
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            32
+        ],
+        "avg_val_loss": 0.012356573680881411,
+        "avg_train_loss": 0.01071755981107277
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            1024,
+            16
+        ],
+        "avg_val_loss": 0.012344895758100652,
+        "avg_train_loss": 0.010529106870914498
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            512
+        ],
+        "avg_val_loss": 0.011730510407193962,
+        "avg_train_loss": 0.00960512649078198
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            256
+        ],
+        "avg_val_loss": 0.011911013568585208,
+        "avg_train_loss": 0.009797181171813496
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            128
+        ],
+        "avg_val_loss": 0.011664146605263732,
+        "avg_train_loss": 0.009775500289267963
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            64
+        ],
+        "avg_val_loss": 0.012619135675153562,
+        "avg_train_loss": 0.010940735352536042
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            32
+        ],
+        "avg_val_loss": 0.011896297244155512,
+        "avg_train_loss": 0.010204196835143698
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            512,
+            16
+        ],
+        "avg_val_loss": 0.01292747509266649,
+        "avg_train_loss": 0.011003194012920613
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.01240935077242154,
+        "avg_train_loss": 0.010645725951461054
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.013968215890262009,
+        "avg_train_loss": 0.012119428985924632
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.013066148621562338,
+        "avg_train_loss": 0.010913789192973464
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.013859533134382217,
+        "avg_train_loss": 0.012243583681130852
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.013753430320814785,
+        "avg_train_loss": 0.011963614966306423
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.012961735146486067,
+        "avg_train_loss": 0.011047363859014931
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.013050961002175296,
+        "avg_train_loss": 0.011439515355353553
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.013380448498563574,
+        "avg_train_loss": 0.011892595093835282
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.014010819426870772,
+        "avg_train_loss": 0.012411591357172087
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.014077370324438171,
+        "avg_train_loss": 0.012674860825279244
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.013962362250978393,
+        "avg_train_loss": 0.012475710843379298
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.01393379851942882,
+        "avg_train_loss": 0.012299695855903407
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.01481956669428785,
+        "avg_train_loss": 0.013226306831671131
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.014384367804242565,
+        "avg_train_loss": 0.012905655164892473
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 4,
+        "units": [
+            1024,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.014983928674233279,
+        "avg_train_loss": 0.01368956043281489
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            32,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.015046719704488556,
+        "avg_train_loss": 0.013618737260845526
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            32,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.014696027433300124,
+        "avg_train_loss": 0.013349569940732586
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            32,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.014967236140676373,
+        "avg_train_loss": 0.013885763427242636
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            64,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.013327646193959352,
+        "avg_train_loss": 0.011734349792823196
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            64,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.014445597204446261,
+        "avg_train_loss": 0.01287162552277247
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            64,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.01398139807196068,
+        "avg_train_loss": 0.012259501374016204
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            64,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.014765409930675688,
+        "avg_train_loss": 0.013328630113284345
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            64,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.014423760696912985,
+        "avg_train_loss": 0.012859073471002005
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            64,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.0148851424921304,
+        "avg_train_loss": 0.013807215243233023
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.012683357867977715,
+        "avg_train_loss": 0.010765125799096293
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.013158761127851904,
+        "avg_train_loss": 0.011675119960542631
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.012950680940411985,
+        "avg_train_loss": 0.011414030622001048
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.013452334710330305,
+        "avg_train_loss": 0.012050836764414001
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.013037182738272738,
+        "avg_train_loss": 0.011540060257539153
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.013409593989074764,
+        "avg_train_loss": 0.011589464272751853
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.014138490385708533,
+        "avg_train_loss": 0.01247219957963184
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.014012280806699504,
+        "avg_train_loss": 0.012480321628283018
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.014022209522746767,
+        "avg_train_loss": 0.012700142718299673
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            128,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.014532217044117196,
+        "avg_train_loss": 0.013274328131228686
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.012055198529768468,
+        "avg_train_loss": 0.010050872276985534
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.011591734183353505,
+        "avg_train_loss": 0.009743762666497516
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.012583231094426342,
+        "avg_train_loss": 0.010872855503112077
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.013475436952597064,
+        "avg_train_loss": 0.011097914341802673
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.013346736877325124,
+        "avg_train_loss": 0.01134857694549417
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.012252381441482742,
+        "avg_train_loss": 0.01047042975616124
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.012475191173143683,
+        "avg_train_loss": 0.010846714028674695
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.012624907679024286,
+        "avg_train_loss": 0.011076654423097217
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.01281528988287651,
+        "avg_train_loss": 0.01135916858739047
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.012698566355642732,
+        "avg_train_loss": 0.011150279622180041
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.014087325956539384,
+        "avg_train_loss": 0.01230222645940052
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.014245493773237933,
+        "avg_train_loss": 0.012580601679575112
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.01444245263202382,
+        "avg_train_loss": 0.012955370943786371
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.014071548936356393,
+        "avg_train_loss": 0.012571010164295635
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            256,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.014460722887555936,
+        "avg_train_loss": 0.013476256927889254
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            512
+        ],
+        "avg_val_loss": 0.010952967558322209,
+        "avg_train_loss": 0.008356152009218932
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            256
+        ],
+        "avg_val_loss": 0.011777070602069475,
+        "avg_train_loss": 0.009557555822862518
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            128
+        ],
+        "avg_val_loss": 0.011299349020035671,
+        "avg_train_loss": 0.00926608306493748
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            64
+        ],
+        "avg_val_loss": 0.011372916108562742,
+        "avg_train_loss": 0.009553124620234247
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            32
+        ],
+        "avg_val_loss": 0.011786439754567776,
+        "avg_train_loss": 0.009917887974599445
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            512,
+            16
+        ],
+        "avg_val_loss": 0.01220677816225881,
+        "avg_train_loss": 0.010321323689142311
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.011107971816090866,
+        "avg_train_loss": 0.00898451125163033
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.01167179930655818,
+        "avg_train_loss": 0.009492649589837702
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.012425126497899846,
+        "avg_train_loss": 0.010673499850694228
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.01238414168640572,
+        "avg_train_loss": 0.010780720601582692
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.01234310053405352,
+        "avg_train_loss": 0.010878561392288516
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.012023593698229109,
+        "avg_train_loss": 0.010327240039973899
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.012304229227759478,
+        "avg_train_loss": 0.010329160344338527
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.012212114741227456,
+        "avg_train_loss": 0.010543641903334195
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.012707884987217508,
+        "avg_train_loss": 0.010929190370047259
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.01238534817405577,
+        "avg_train_loss": 0.010699300569723602
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.013087258754032,
+        "avg_train_loss": 0.011364989641501948
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.013686271020144756,
+        "avg_train_loss": 0.012203562409720486
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.01346283860371581,
+        "avg_train_loss": 0.011968297756242531
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.013619122073786067,
+        "avg_train_loss": 0.012311403367116497
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            512,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.014787187498794605,
+        "avg_train_loss": 0.013312157871270621
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            1024
+        ],
+        "avg_val_loss": 0.01182518996647559,
+        "avg_train_loss": 0.008926479345946401
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            512
+        ],
+        "avg_val_loss": 0.010404236458374985,
+        "avg_train_loss": 0.007790306207930876
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            256
+        ],
+        "avg_val_loss": 0.010427170447655953,
+        "avg_train_loss": 0.007830748859689467
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            128
+        ],
+        "avg_val_loss": 0.011306799591485677,
+        "avg_train_loss": 0.00905409654326461
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            64
+        ],
+        "avg_val_loss": 0.012628746025231,
+        "avg_train_loss": 0.010724187428476634
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            32
+        ],
+        "avg_val_loss": 0.01238072169528875,
+        "avg_train_loss": 0.010109638740067128
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            1024,
+            16
+        ],
+        "avg_val_loss": 0.012194698718043842,
+        "avg_train_loss": 0.010458395306745336
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            512
+        ],
+        "avg_val_loss": 0.01087145450292155,
+        "avg_train_loss": 0.008695296380944826
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            256
+        ],
+        "avg_val_loss": 0.01070841078929204,
+        "avg_train_loss": 0.00829204764234385
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            128
+        ],
+        "avg_val_loss": 0.010907673656142184,
+        "avg_train_loss": 0.008504347372972579
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            64
+        ],
+        "avg_val_loss": 0.012717565914915342,
+        "avg_train_loss": 0.01046546441330402
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            32
+        ],
+        "avg_val_loss": 0.011302975985953319,
+        "avg_train_loss": 0.009388353784258167
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            512,
+            16
+        ],
+        "avg_val_loss": 0.012964812027556555,
+        "avg_train_loss": 0.01103177481951813
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            256
+        ],
+        "avg_val_loss": 0.011350504816177168,
+        "avg_train_loss": 0.009124009061121829
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            128
+        ],
+        "avg_val_loss": 0.011262392863864079,
+        "avg_train_loss": 0.009156046530956197
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            64
+        ],
+        "avg_val_loss": 0.011379372378412102,
+        "avg_train_loss": 0.009552694168114276
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            32
+        ],
+        "avg_val_loss": 0.011954227558869336,
+        "avg_train_loss": 0.010016573788770647
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            256,
+            16
+        ],
+        "avg_val_loss": 0.012473863576139721,
+        "avg_train_loss": 0.010884596441906912
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            128,
+            128
+        ],
+        "avg_val_loss": 0.011294058216403105,
+        "avg_train_loss": 0.009326731168699486
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            128,
+            64
+        ],
+        "avg_val_loss": 0.012490818961357167,
+        "avg_train_loss": 0.010478962073102593
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            128,
+            32
+        ],
+        "avg_val_loss": 0.012782414510313953,
+        "avg_train_loss": 0.01113397662907287
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            128,
+            16
+        ],
+        "avg_val_loss": 0.012204990530985275,
+        "avg_train_loss": 0.010431696669440027
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            64,
+            64
+        ],
+        "avg_val_loss": 0.012617909408540334,
+        "avg_train_loss": 0.011029350307459631
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            64,
+            32
+        ],
+        "avg_val_loss": 0.013205760619270483,
+        "avg_train_loss": 0.011147284805257288
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            64,
+            16
+        ],
+        "avg_val_loss": 0.013103246391152165,
+        "avg_train_loss": 0.011554236484139606
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            32,
+            32
+        ],
+        "avg_val_loss": 0.013091575835798203,
+        "avg_train_loss": 0.011552540019706443
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            32,
+            16
+        ],
+        "avg_val_loss": 0.013549766584765166,
+        "avg_train_loss": 0.012149348987818318
+    },
+    {
+        "model": "GAT_2GCN_3FFNN_sigmoid",
+        "hidden_dim": 64,
+        "heads": 8,
+        "units": [
+            1024,
+            16,
+            16
+        ],
+        "avg_val_loss": 0.013276474999396928,
+        "avg_train_loss": 0.011781702317400939
+    }
+]

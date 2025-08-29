@@ -1,0 +1,116 @@
+INFO: localdir at /scratch/1197053.atudisco
+INFO: your job will run on local system.
+Could not find conda environment: gnn_py10y
+You can list all discoverable environments with `conda info --envs`.
+
+# conda environments:
+#
+base                  *  /home/atudisco/miniconda3
+gnn                      /home/atudisco/miniconda3/envs/gnn
+gnn_py10                 /home/atudisco/miniconda3/envs/gnn_py10
+
+# conda environments:
+#
+base                  *  /home/atudisco/miniconda3
+gnn                      /home/atudisco/miniconda3/envs/gnn
+gnn_py10                 /home/atudisco/miniconda3/envs/gnn_py10
+
+# packages in environment at /home/atudisco/miniconda3:
+#
+# Name                    Version                   Build  Channel
+scikit-learn              1.6.1                    pypi_0    pypi
+Running on host: compute-3-25
+CUDA Devices: 0,1
+Python version: Python 3.9.5
+Conda environment: /home/atudisco/miniconda3/bin/python
+Installed Python packages:
+torch                    2.6.0+cu118
+torch-geometric          2.6.1
+torchaudio               2.6.0+cu118
+torchvision              0.21.0+cu118
+scikit-learn             1.6.1
+/home/atudisco/miniconda3/lib/python3.9/site-packages/torch_geometric/data/storage.py:452: UserWarning: Unable to accurately infer 'num_nodes' from the attribute set '{'y', 'edge_index', 'X'}'. Please explicitly set 'num_nodes' as an attribute of 'data' to suppress this warning
+  warnings.warn(
+hd=64 heads=8 units=(32, 32, 32) → 0.0105
+hd=64 heads=8 units=(32, 32, 16) → 0.0110
+hd=64 heads=8 units=(32, 16, 16) → 0.0106
+hd=64 heads=8 units=(64, 64, 64) → 0.0090
+hd=64 heads=8 units=(64, 64, 32) → 0.0105
+hd=64 heads=8 units=(64, 64, 16) → 0.0100
+hd=64 heads=8 units=(64, 32, 32) → 0.0098
+hd=64 heads=8 units=(64, 32, 16) → 0.0109
+hd=64 heads=8 units=(64, 16, 16) → 0.0112
+hd=64 heads=8 units=(128, 128, 128) → 0.0084
+hd=64 heads=8 units=(128, 128, 64) → 0.0084
+hd=64 heads=8 units=(128, 128, 32) → 0.0088
+hd=64 heads=8 units=(128, 128, 16) → 0.0088
+hd=64 heads=8 units=(128, 64, 64) → 0.0091
+hd=64 heads=8 units=(128, 64, 32) → 0.0088
+hd=64 heads=8 units=(128, 64, 16) → 0.0088
+hd=64 heads=8 units=(128, 32, 32) → 0.0092
+hd=64 heads=8 units=(128, 32, 16) → 0.0094
+hd=64 heads=8 units=(128, 16, 16) → 0.0100
+hd=64 heads=8 units=(256, 256, 256) → 0.0087
+hd=64 heads=8 units=(256, 256, 128) → 0.0082
+hd=64 heads=8 units=(256, 256, 64) → 0.0083
+hd=64 heads=8 units=(256, 256, 32) → 0.0083
+hd=64 heads=8 units=(256, 256, 16) → 0.0086
+hd=64 heads=8 units=(256, 128, 128) → 0.0084
+hd=64 heads=8 units=(256, 128, 64) → 0.0090
+hd=64 heads=8 units=(256, 128, 32) → 0.0085
+hd=64 heads=8 units=(256, 128, 16) → 0.0085
+hd=64 heads=8 units=(256, 64, 64) → 0.0086
+hd=64 heads=8 units=(256, 64, 32) → 0.0083
+hd=64 heads=8 units=(256, 64, 16) → 0.0091
+hd=64 heads=8 units=(256, 32, 32) → 0.0102
+hd=64 heads=8 units=(256, 32, 16) → 0.0097
+hd=64 heads=8 units=(256, 16, 16) → 0.0089
+hd=64 heads=8 units=(512, 512, 512) → 0.0073
+hd=64 heads=8 units=(512, 512, 256) → 0.0081
+hd=64 heads=8 units=(512, 512, 128) → 0.0081
+hd=64 heads=8 units=(512, 512, 64) → 0.0084
+hd=64 heads=8 units=(512, 512, 32) → 0.0084
+hd=64 heads=8 units=(512, 512, 16) → 0.0082
+hd=64 heads=8 units=(512, 256, 256) → 0.0080
+hd=64 heads=8 units=(512, 256, 128) → 0.0086
+hd=64 heads=8 units=(512, 256, 64) → 0.0083
+hd=64 heads=8 units=(512, 256, 32) → 0.0086
+hd=64 heads=8 units=(512, 256, 16) → 0.0083
+hd=64 heads=8 units=(512, 128, 128) → 0.0085
+hd=64 heads=8 units=(512, 128, 64) → 0.0092
+hd=64 heads=8 units=(512, 128, 32) → 0.0085
+hd=64 heads=8 units=(512, 128, 16) → 0.0082
+hd=64 heads=8 units=(512, 64, 64) → 0.0082
+hd=64 heads=8 units=(512, 64, 32) → 0.0086
+hd=64 heads=8 units=(512, 64, 16) → 0.0089
+hd=64 heads=8 units=(512, 32, 32) → 0.0088
+hd=64 heads=8 units=(512, 32, 16) → 0.0089
+hd=64 heads=8 units=(512, 16, 16) → 0.0094
+hd=64 heads=8 units=(1024, 1024, 1024) → 0.0074
+hd=64 heads=8 units=(1024, 1024, 512) → 0.0072
+hd=64 heads=8 units=(1024, 1024, 256) → 0.0080
+hd=64 heads=8 units=(1024, 1024, 128) → 0.0073
+hd=64 heads=8 units=(1024, 1024, 64) → 0.0082
+hd=64 heads=8 units=(1024, 1024, 32) → 0.0082
+hd=64 heads=8 units=(1024, 1024, 16) → 0.0087
+hd=64 heads=8 units=(1024, 512, 512) → 0.0071
+hd=64 heads=8 units=(1024, 512, 256) → 0.0079
+hd=64 heads=8 units=(1024, 512, 128) → 0.0074
+hd=64 heads=8 units=(1024, 512, 64) → 0.0085
+hd=64 heads=8 units=(1024, 512, 32) → 0.0080
+hd=64 heads=8 units=(1024, 512, 16) → 0.0086
+hd=64 heads=8 units=(1024, 256, 256) → 0.0076
+hd=64 heads=8 units=(1024, 256, 128) → 0.0080
+hd=64 heads=8 units=(1024, 256, 64) → 0.0081
+hd=64 heads=8 units=(1024, 256, 32) → 0.0082
+hd=64 heads=8 units=(1024, 256, 16) → 0.0081
+hd=64 heads=8 units=(1024, 128, 128) → 0.0079
+hd=64 heads=8 units=(1024, 128, 64) → 0.0084
+hd=64 heads=8 units=(1024, 128, 32) → 0.0085
+hd=64 heads=8 units=(1024, 128, 16) → 0.0086
+hd=64 heads=8 units=(1024, 64, 64) → 0.0087
+hd=64 heads=8 units=(1024, 64, 32) → 0.0087
+hd=64 heads=8 units=(1024, 64, 16) → 0.0084
+hd=64 heads=8 units=(1024, 32, 32) → 0.0093
+hd=64 heads=8 units=(1024, 32, 16) → 0.0094
+hd=64 heads=8 units=(1024, 16, 16) → 0.0084

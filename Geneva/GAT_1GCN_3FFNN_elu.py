@@ -1,0 +1,180 @@
+import warnings
+warnings.filterwarnings("ignore", message=r"An issue occurred while importing 'torch-.*'", 
+                        category=UserWarning, module=r"torch_geometric.typing")
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
+from torch_geometric.loader import DataLoader
+from torch_geometric.nn import GCNConv, GATConv, global_mean_pool, GraphNorm
+from sklearn.model_selection import KFold
+from torch.utils.data import Subset
+import json
+import os
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+dataset = torch.load('geneva.pt', weights_only=False)
+
+class EarlyStopping:
+    def __init__(self, patience=10, delta=1e-4):
+        self.patience, self.delta = patience, delta
+        self.best_loss = float('inf')
+        self.counter, self.best_state = 0, None
+
+    def step(self, loss, model):
+        if loss + self.delta < self.best_loss:
+            self.best_loss, self.counter = loss, 0
+            self.best_state = model.state_dict()
+            return False
+        else:
+            self.counter += 1
+            return self.counter >= self.patience
+
+    def load_best(self, model):
+        model.load_state_dict(self.best_state)
+
+class QuantumGAT(nn.Module):
+    def __init__(self, in_feats, hidden_dim, heads, numUnit1, numUnit2, numUnit3):
+        super().__init__()
+        # strati grafici
+        self.conv1 = GATConv(in_feats, hidden_dim, heads=heads)
+        self.conv2 = GCNConv(hidden_dim * heads, hidden_dim * heads)
+        #self.conv3 = GCNConv(hidden_dim * heads, hidden_dim * heads)
+
+        # testata MLP
+        self.fc1 = nn.Linear(hidden_dim * heads, numUnit1)
+        self.fc2 = nn.Linear(numUnit1,        numUnit2)
+        self.fc3 = nn.Linear(numUnit2,        numUnit3)
+        self.out = nn.Linear(numUnit3,        1)
+
+    def forward(self, data):
+        x, edge_index, batch = data.X, data.edge_index, data.batch
+
+        # — GAT + LeakyReLU
+        x1 = self.conv1(x, edge_index)
+        x1 = F.leaky_relu(x1)
+
+        # — GCN #1 + LeakyReLU + residual
+        x2 = self.conv2(x1, edge_index)
+        x2 = F.leaky_relu(x2)
+        x1 = x1 + x2
+
+        '''# — GCN #2 + LeakyReLU + residual
+        x2 = self.conv3(x1, edge_index)
+        x2 = F.leaky_relu(x2)
+        x1 = x1 + x2'''
+
+        # — global pooling
+        x = global_mean_pool(x1, batch)
+
+        # — MLP finale
+        x = F.leaky_relu(self.fc1(x))
+        x = F.leaky_relu(self.fc2(x))
+        x = F.leaky_relu(self.fc3(x))
+
+        # output
+        return F.elu(self.out(x)).view(-1)
+
+def train_epoch(model, loader, optimizer, loss_fn):
+    model.train()
+    total = 0
+    for batch in loader:
+        batch = batch.to(device)
+        optimizer.zero_grad()
+        loss = loss_fn(model(batch), batch.y.float())
+        loss.backward()
+        optimizer.step()
+        total += loss.item()
+    return total / len(loader)
+
+def validate(model, loader, loss_fn):
+    model.eval()
+    total = 0
+    with torch.no_grad():
+        for batch in loader:
+            batch = batch.to(device)
+            total += loss_fn(model(batch), batch.y.float()).item()
+    return total / len(loader)
+
+# ─────────────────────────────────────────────────────────────────────────
+# Single k-fold CV + early stopping (no test split)
+# ─────────────────────────────────────────────────────────────────────────
+kf = KFold(n_splits=5, shuffle=True, random_state=42)
+results = []
+
+for hidden_dim in [32, 64]:
+  for heads in [4, 8]:
+    #if hidden_dim==64 and heads==8: continue
+    for numUnit1 in [32,64,128,256,512,1024]:
+      for numUnit2 in [u for u in (numUnit1>>i for i in range(10)) if u>=16]:
+        for numUnit3 in [u for u in (numUnit2>>j for j in range(10)) if u>=16]:
+            try:
+                val_losses = []
+                train_losses = []
+                cnt = 0
+                for train_idx, val_idx in kf.split(dataset):
+                    train_sub = Subset(dataset, train_idx)
+                    val_sub   = Subset(dataset, val_idx)
+
+                    train_loader = DataLoader(train_sub, batch_size=64, shuffle=True)
+                    val_loader   = DataLoader(val_sub,   batch_size=64, shuffle=False)
+
+                    model = QuantumGAT(
+                    in_feats=dataset[0].X.size(1),
+                    hidden_dim=hidden_dim,
+                    heads=heads,
+                    numUnit1=numUnit1,
+                    numUnit2=numUnit2,
+                    numUnit3=numUnit3
+                    ).to(device)
+
+                    optimizer = optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-5)
+                    scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.7)
+                    loss_fn   = nn.MSELoss()
+                    stopper   = EarlyStopping(patience=10, delta=1e-4)
+
+                    for epoch in range(1, 101):
+                        train_loss = train_epoch(model, train_loader, optimizer, loss_fn)
+                        scheduler.step()
+                        val_loss   = validate(model, val_loader, loss_fn)
+                        #train_losses = train_loss / len(train_loader)
+                        if stopper.step(val_loss, model):
+                            break
+
+                    stopper.load_best(model)
+                    val_losses.append(validate(model, val_loader, loss_fn))
+                    train_losses.append(train_loss)
+                    #torch.save(model.state_dict(), f"models/model_GAT_1GCN_3FFNN_elu_{cnt}_{hidden_dim}_{heads}_{numUnit1}_{numUnit2}_{numUnit3}.pt")
+                    cnt += 1
+                avg_val = sum(val_losses)/len(val_losses)
+                avg_train = sum(train_losses)/len(train_losses)
+                r = {
+                    'model': 'GAT_1GCN_3FFNN_elu',
+                    'hidden_dim': hidden_dim,
+                    'heads': heads,
+                    'units': (numUnit1,numUnit2,numUnit3),
+                    'avg_val_loss': avg_val,
+                    'avg_train_loss': avg_train,
+                }
+                '''results.append({
+                    'model': 'GAT_2GCN_3FFNN_elu',
+                    'hidden_dim': hidden_dim,
+                    'heads': heads,
+                    'units': (numUnit1,numUnit2,numUnit3),
+                    'avg_val_loss': avg_val,
+                    'avg_train_loss': avg_train,
+                })'''
+                print(f"hd={hidden_dim} heads={heads} units={numUnit1, numUnit2, numUnit3} → {avg_val:.4f}")
+                # save the results in a JSON file append it
+                if os.path.exists('results_GAT_1GCN_3FFNN_elu.json'):
+                    with open('results_GAT_1GCN_3FFNN_elu.json', 'r') as f:
+                        results = json.load(f)
+                else:
+                    results = []
+                results.append(r)
+                with open('results_GAT_1GCN_3FFNN_elu.json', 'w') as f:
+                    json.dump(results, f, indent=4)
+            except Exception as e:
+                print(f"hd={hidden_dim} heads={heads} units={numUnit1, numUnit2, numUnit3} → {e}")
+                continue

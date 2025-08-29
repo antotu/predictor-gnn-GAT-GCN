@@ -1,0 +1,88 @@
+// Benchmark was created by MQT Bench on 2024-03-18
+// For more information about MQT Bench, please visit https://www.cda.cit.tum.de/mqtbench/
+// MQT Bench version: 1.1.0
+// TKET version: 1.25.0
+// Used Gate Set: ['rzz', 'rz', 'ry', 'rx', 'measure', 'barrier']
+
+OPENQASM 2.0;
+include "qelib1.inc";
+
+qreg psi[1];
+qreg q[3];
+creg c[3];
+rx(0.5*pi) psi[0];
+rz(1.0*pi) q[0];
+rz(3.0*pi) q[1];
+rz(0.625*pi) q[2];
+rz(1.5*pi) psi[0];
+rx(0.8750000000000008*pi) q[0];
+rx(2.5*pi) q[1];
+rx(1.5*pi) q[2];
+rz(0.5*pi) psi[0];
+rz(0.5*pi) q[0];
+rz(0.5*pi) q[1];
+rz(0.5*pi) q[2];
+rx(0.5*pi) psi[0];
+rx(0.5*pi) q[0];
+rx(0.5*pi) q[1];
+rz(0.5*pi) q[2];
+rz(0.5*pi) psi[0];
+rz(0.5*pi) q[0];
+rz(0.5*pi) q[1];
+rx(0.5*pi) q[2];
+rzz(0.5*pi) psi[0],q[0];
+rz(0.5*pi) q[2];
+rx(0.5*pi) psi[0];
+rx(0.5*pi) q[0];
+rzz(0.25*pi) q[1],q[2];
+rz(0.5*pi) psi[0];
+rz(0.5*pi) q[0];
+rx(0.5*pi) q[1];
+rx(0.5*pi) q[2];
+rx(0.5*pi) psi[0];
+rx(0.5*pi) q[0];
+rz(0.5*pi) q[1];
+rz(0.5*pi) q[2];
+rz(0.5*pi) psi[0];
+rz(0.5*pi) q[0];
+rx(0.5*pi) q[1];
+rx(0.5*pi) q[2];
+rx(0.5*pi) psi[0];
+rx(2.5*pi) q[0];
+rz(0.30408672398469694*pi) q[1];
+rz(3.5*pi) q[2];
+rz(0.5*pi) psi[0];
+rx(3.333333333333333*pi) q[1];
+rx(1.5*pi) q[2];
+rzz(0.12499999999999993*pi) q[0],q[2];
+rz(0.6959132760153037*pi) q[1];
+rx(0.5*pi) q[0];
+rz(0.5*pi) q[1];
+rx(0.5*pi) q[2];
+rz(0.5*pi) q[0];
+rx(0.5*pi) q[1];
+rz(0.5*pi) q[2];
+rx(0.5*pi) q[0];
+rz(0.5*pi) q[1];
+rz(0.5*pi) q[2];
+rx(0.5*pi) q[0];
+rx(1.5*pi) q[2];
+rz(0.5*pi) q[0];
+rx(0.5*pi) q[0];
+rz(0.5*pi) q[0];
+rzz(0.25*pi) q[0],q[1];
+rx(0.5*pi) q[0];
+rx(0.5*pi) q[1];
+rz(0.5*pi) q[0];
+rz(0.5*pi) q[1];
+rx(0.5*pi) q[0];
+rx(0.5*pi) q[1];
+rz(3.0*pi) q[0];
+rz(3.5*pi) q[1];
+rx(1.0*pi) q[0];
+rx(2.5*pi) q[1];
+rz(0.5*pi) q[1];
+barrier q[2],q[1],q[0],psi[0];
+measure q[2] -> c[0];
+measure q[1] -> c[1];
+measure q[0] -> c[2];

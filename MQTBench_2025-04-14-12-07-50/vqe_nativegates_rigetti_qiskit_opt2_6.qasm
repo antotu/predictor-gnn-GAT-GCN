@@ -1,0 +1,74 @@
+// Benchmark was created by MQT Bench on 2024-03-19
+// For more information about MQT Bench, please visit https://www.cda.cit.tum.de/mqtbench/
+// MQT Bench version: 1.1.0
+// Qiskit version: 1.0.2
+// Used Gate Set: ['rx', 'rz', 'cz', 'cp', 'xx_plus_yy', 'measure', 'barrier']
+
+OPENQASM 2.0;
+include "qelib1.inc";
+qreg q[6];
+creg meas[6];
+rz(-pi/2) q[0];
+rx(-0.17272429463635947) q[0];
+rz(pi/2) q[1];
+rx(0.014802872211637026) q[1];
+rz(pi/2) q[2];
+rx(1.5751046838670628) q[2];
+rz(pi/2) q[3];
+rx(-9.546846798158407e-05) q[3];
+rz(pi/2) q[4];
+rx(0.8730953676912814) q[4];
+rz(pi/2) q[5];
+rx(-1.2206775194194077) q[5];
+cz q[4],q[5];
+rx(pi/2) q[4];
+cz q[3],q[4];
+rx(pi/2) q[3];
+rz(pi) q[3];
+cz q[2],q[3];
+rx(pi/2) q[2];
+rz(pi) q[2];
+cz q[1],q[2];
+rx(pi/2) q[1];
+rz(pi) q[1];
+cz q[0],q[1];
+rx(1.6329099645448215) q[0];
+rx(3.1309859752930436) q[1];
+rz(pi) q[1];
+rx(0.037274368382255056) q[2];
+rz(pi) q[2];
+rx(3.104275351598223) q[3];
+rz(pi) q[3];
+rx(2.7533937406356217) q[4];
+rx(1.0539864930883591) q[5];
+cz q[4],q[5];
+rx(pi/2) q[4];
+rz(3.1415926535804246) q[4];
+cz q[3],q[4];
+rx(pi/2) q[3];
+rz(pi) q[3];
+cz q[2],q[3];
+rx(pi/2) q[2];
+rz(pi) q[2];
+cz q[1],q[2];
+rx(pi/2) q[1];
+cz q[0],q[1];
+rx(-1.5096311705443515) q[0];
+rz(pi/2) q[0];
+rx(2.968568599302018) q[1];
+rz(-pi/2) q[1];
+rx(3.1270116685356295) q[2];
+rz(pi/2) q[2];
+rx(1.575233158054121) q[3];
+rz(pi/2) q[3];
+rx(3.141589182681789) q[4];
+rz(1.570796326785528) q[4];
+rx(2.338347831399376) q[5];
+rz(-pi/2) q[5];
+barrier q[0],q[1],q[2],q[3],q[4],q[5];
+measure q[0] -> meas[0];
+measure q[1] -> meas[1];
+measure q[2] -> meas[2];
+measure q[3] -> meas[3];
+measure q[4] -> meas[4];
+measure q[5] -> meas[5];

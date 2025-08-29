@@ -1,0 +1,664 @@
+INFO: localdir at /scratch/1197114.atudisco
+INFO: your job will run on local system.
+Could not find conda environment: gnn_py10y
+You can list all discoverable environments with `conda info --envs`.
+
+# conda environments:
+#
+base                  *  /home/atudisco/miniconda3
+gnn                      /home/atudisco/miniconda3/envs/gnn
+gnn_py10                 /home/atudisco/miniconda3/envs/gnn_py10
+
+# conda environments:
+#
+base                  *  /home/atudisco/miniconda3
+gnn                      /home/atudisco/miniconda3/envs/gnn
+gnn_py10                 /home/atudisco/miniconda3/envs/gnn_py10
+
+# packages in environment at /home/atudisco/miniconda3:
+#
+# Name                    Version                   Build  Channel
+scikit-learn              1.6.1                    pypi_0    pypi
+Running on host: compute-3-25
+CUDA Devices: 2,3
+Python version: Python 3.9.5
+Conda environment: /home/atudisco/miniconda3/bin/python
+Installed Python packages:
+torch                    2.6.0+cu118
+torch-geometric          2.6.1
+torchaudio               2.6.0+cu118
+torchvision              0.21.0+cu118
+scikit-learn             1.6.1
+/home/atudisco/miniconda3/lib/python3.9/site-packages/torch_geometric/data/storage.py:452: UserWarning: Unable to accurately infer 'num_nodes' from the attribute set '{'edge_index', 'X', 'y'}'. Please explicitly set 'num_nodes' as an attribute of 'data' to suppress this warning
+  warnings.warn(
+hd=32 heads=4 units=(32, 32, 32) → 0.0124
+hd=32 heads=4 units=(32, 32, 16) → 0.0121
+hd=32 heads=4 units=(32, 16, 16) → 0.0141
+hd=32 heads=4 units=(64, 64, 64) → 0.0110
+hd=32 heads=4 units=(64, 64, 32) → 0.0119
+hd=32 heads=4 units=(64, 64, 16) → 0.0117
+hd=32 heads=4 units=(64, 32, 32) → 0.0119
+hd=32 heads=4 units=(64, 32, 16) → 0.0120
+hd=32 heads=4 units=(64, 16, 16) → 0.0119
+hd=32 heads=4 units=(128, 128, 128) → 0.0100
+hd=32 heads=4 units=(128, 128, 64) → 0.0105
+hd=32 heads=4 units=(128, 128, 32) → 0.0104
+hd=32 heads=4 units=(128, 128, 16) → 0.0114
+hd=32 heads=4 units=(128, 64, 64) → 0.0108
+hd=32 heads=4 units=(128, 64, 32) → 0.0113
+hd=32 heads=4 units=(128, 64, 16) → 0.0113
+hd=32 heads=4 units=(128, 32, 32) → 0.0113
+hd=32 heads=4 units=(128, 32, 16) → 0.0115
+hd=32 heads=4 units=(128, 16, 16) → 0.0123
+hd=32 heads=4 units=(256, 256, 256) → 0.0090
+hd=32 heads=4 units=(256, 256, 128) → 0.0098
+hd=32 heads=4 units=(256, 256, 64) → 0.0098
+hd=32 heads=4 units=(256, 256, 32) → 0.0098
+hd=32 heads=4 units=(256, 256, 16) → 0.0105
+hd=32 heads=4 units=(256, 128, 128) → 0.0102
+hd=32 heads=4 units=(256, 128, 64) → 0.0096
+hd=32 heads=4 units=(256, 128, 32) → 0.0101
+hd=32 heads=4 units=(256, 128, 16) → 0.0108
+hd=32 heads=4 units=(256, 64, 64) → 0.0112
+hd=32 heads=4 units=(256, 64, 32) → 0.0104
+hd=32 heads=4 units=(256, 64, 16) → 0.0108
+hd=32 heads=4 units=(256, 32, 32) → 0.0111
+hd=32 heads=4 units=(256, 32, 16) → 0.0112
+hd=32 heads=4 units=(256, 16, 16) → 0.0119
+hd=32 heads=4 units=(256, 16, 16) → [Errno 28] No space left on device
+hd=32 heads=4 units=(512, 512, 512) → 0.0086
+hd=32 heads=4 units=(512, 512, 512) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 512, 256) → 0.0085
+hd=32 heads=4 units=(512, 512, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 512, 128) → 0.0093
+hd=32 heads=4 units=(512, 512, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 512, 64) → 0.0092
+hd=32 heads=4 units=(512, 512, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 512, 32) → 0.0097
+hd=32 heads=4 units=(512, 512, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 512, 16) → 0.0096
+hd=32 heads=4 units=(512, 512, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 256, 256) → 0.0090
+hd=32 heads=4 units=(512, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 256, 128) → 0.0094
+hd=32 heads=4 units=(512, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 256, 64) → 0.0097
+hd=32 heads=4 units=(512, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 256, 32) → 0.0103
+hd=32 heads=4 units=(512, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 256, 16) → 0.0103
+hd=32 heads=4 units=(512, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 128, 128) → 0.0097
+hd=32 heads=4 units=(512, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 128, 64) → 0.0102
+hd=32 heads=4 units=(512, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 128, 32) → 0.0108
+hd=32 heads=4 units=(512, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 128, 16) → 0.0105
+hd=32 heads=4 units=(512, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 64, 64) → 0.0102
+hd=32 heads=4 units=(512, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 64, 32) → 0.0107
+hd=32 heads=4 units=(512, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 64, 16) → 0.0105
+hd=32 heads=4 units=(512, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 32, 32) → 0.0106
+hd=32 heads=4 units=(512, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 32, 16) → 0.0110
+hd=32 heads=4 units=(512, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(512, 16, 16) → 0.0114
+hd=32 heads=4 units=(512, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 1024, 1024) → 0.0086
+hd=32 heads=4 units=(1024, 1024, 1024) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 1024, 512) → 0.0088
+hd=32 heads=4 units=(1024, 1024, 512) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 1024, 256) → 0.0086
+hd=32 heads=4 units=(1024, 1024, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 1024, 128) → 0.0096
+hd=32 heads=4 units=(1024, 1024, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 1024, 64) → 0.0100
+hd=32 heads=4 units=(1024, 1024, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 1024, 32) → 0.0091
+hd=32 heads=4 units=(1024, 1024, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 1024, 16) → 0.0097
+hd=32 heads=4 units=(1024, 1024, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 512, 512) → 0.0082
+hd=32 heads=4 units=(1024, 512, 512) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 512, 256) → 0.0088
+hd=32 heads=4 units=(1024, 512, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 512, 128) → 0.0090
+hd=32 heads=4 units=(1024, 512, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 512, 64) → 0.0091
+hd=32 heads=4 units=(1024, 512, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 512, 32) → 0.0094
+hd=32 heads=4 units=(1024, 512, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 512, 16) → 0.0094
+hd=32 heads=4 units=(1024, 512, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 256, 256) → 0.0103
+hd=32 heads=4 units=(1024, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 256, 128) → 0.0094
+hd=32 heads=4 units=(1024, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 256, 64) → 0.0092
+hd=32 heads=4 units=(1024, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 256, 32) → 0.0098
+hd=32 heads=4 units=(1024, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 256, 16) → 0.0096
+hd=32 heads=4 units=(1024, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 128, 128) → 0.0104
+hd=32 heads=4 units=(1024, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 128, 64) → 0.0097
+hd=32 heads=4 units=(1024, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 128, 32) → 0.0104
+hd=32 heads=4 units=(1024, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 128, 16) → 0.0098
+hd=32 heads=4 units=(1024, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 64, 64) → 0.0102
+hd=32 heads=4 units=(1024, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 64, 32) → 0.0101
+hd=32 heads=4 units=(1024, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 64, 16) → 0.0103
+hd=32 heads=4 units=(1024, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 32, 32) → 0.0110
+hd=32 heads=4 units=(1024, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 32, 16) → 0.0108
+hd=32 heads=4 units=(1024, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=4 units=(1024, 16, 16) → 0.0114
+hd=32 heads=4 units=(1024, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(32, 32, 32) → 0.0112
+hd=32 heads=8 units=(32, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(32, 32, 16) → 0.0119
+hd=32 heads=8 units=(32, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(32, 16, 16) → 0.0119
+hd=32 heads=8 units=(32, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(64, 64, 64) → 0.0099
+hd=32 heads=8 units=(64, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(64, 64, 32) → 0.0104
+hd=32 heads=8 units=(64, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(64, 64, 16) → 0.0110
+hd=32 heads=8 units=(64, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(64, 32, 32) → 0.0105
+hd=32 heads=8 units=(64, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(64, 32, 16) → 0.0108
+hd=32 heads=8 units=(64, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(64, 16, 16) → 0.0112
+hd=32 heads=8 units=(64, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 128, 128) → 0.0096
+hd=32 heads=8 units=(128, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 128, 64) → 0.0097
+hd=32 heads=8 units=(128, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 128, 32) → 0.0100
+hd=32 heads=8 units=(128, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 128, 16) → 0.0098
+hd=32 heads=8 units=(128, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 64, 64) → 0.0100
+hd=32 heads=8 units=(128, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 64, 32) → 0.0103
+hd=32 heads=8 units=(128, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 64, 16) → 0.0111
+hd=32 heads=8 units=(128, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 32, 32) → 0.0104
+hd=32 heads=8 units=(128, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 32, 16) → 0.0107
+hd=32 heads=8 units=(128, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(128, 16, 16) → 0.0115
+hd=32 heads=8 units=(128, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 256, 256) → 0.0089
+hd=32 heads=8 units=(256, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 256, 128) → 0.0089
+hd=32 heads=8 units=(256, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 256, 64) → 0.0093
+hd=32 heads=8 units=(256, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 256, 32) → 0.0094
+hd=32 heads=8 units=(256, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 256, 16) → 0.0100
+hd=32 heads=8 units=(256, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 128, 128) → 0.0097
+hd=32 heads=8 units=(256, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 128, 64) → 0.0094
+hd=32 heads=8 units=(256, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 128, 32) → 0.0098
+hd=32 heads=8 units=(256, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 128, 16) → 0.0095
+hd=32 heads=8 units=(256, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 64, 64) → 0.0095
+hd=32 heads=8 units=(256, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 64, 32) → 0.0099
+hd=32 heads=8 units=(256, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 64, 16) → 0.0102
+hd=32 heads=8 units=(256, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 32, 32) → 0.0101
+hd=32 heads=8 units=(256, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 32, 16) → 0.0105
+hd=32 heads=8 units=(256, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(256, 16, 16) → 0.0103
+hd=32 heads=8 units=(256, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 512, 512) → 0.0087
+hd=32 heads=8 units=(512, 512, 512) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 512, 256) → 0.0081
+hd=32 heads=8 units=(512, 512, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 512, 128) → 0.0092
+hd=32 heads=8 units=(512, 512, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 512, 64) → 0.0091
+hd=32 heads=8 units=(512, 512, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 512, 32) → 0.0089
+hd=32 heads=8 units=(512, 512, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 512, 16) → 0.0091
+hd=32 heads=8 units=(512, 512, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 256, 256) → 0.0087
+hd=32 heads=8 units=(512, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 256, 128) → 0.0090
+hd=32 heads=8 units=(512, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 256, 64) → 0.0087
+hd=32 heads=8 units=(512, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 256, 32) → 0.0088
+hd=32 heads=8 units=(512, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 256, 16) → 0.0092
+hd=32 heads=8 units=(512, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 128, 128) → 0.0092
+hd=32 heads=8 units=(512, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 128, 64) → 0.0091
+hd=32 heads=8 units=(512, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 128, 32) → 0.0094
+hd=32 heads=8 units=(512, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 128, 16) → 0.0095
+hd=32 heads=8 units=(512, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 64, 64) → 0.0093
+hd=32 heads=8 units=(512, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 64, 32) → 0.0100
+hd=32 heads=8 units=(512, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 64, 16) → 0.0101
+hd=32 heads=8 units=(512, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 32, 32) → 0.0098
+hd=32 heads=8 units=(512, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 32, 16) → 0.0106
+hd=32 heads=8 units=(512, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(512, 16, 16) → 0.0102
+hd=32 heads=8 units=(512, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 1024, 1024) → 0.0085
+hd=32 heads=8 units=(1024, 1024, 1024) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 1024, 512) → 0.0079
+hd=32 heads=8 units=(1024, 1024, 512) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 1024, 256) → 0.0084
+hd=32 heads=8 units=(1024, 1024, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 1024, 128) → 0.0084
+hd=32 heads=8 units=(1024, 1024, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 1024, 64) → 0.0085
+hd=32 heads=8 units=(1024, 1024, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 1024, 32) → 0.0092
+hd=32 heads=8 units=(1024, 1024, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 1024, 16) → 0.0092
+hd=32 heads=8 units=(1024, 1024, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 512, 512) → 0.0082
+hd=32 heads=8 units=(1024, 512, 512) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 512, 256) → 0.0081
+hd=32 heads=8 units=(1024, 512, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 512, 128) → 0.0097
+hd=32 heads=8 units=(1024, 512, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 512, 64) → 0.0087
+hd=32 heads=8 units=(1024, 512, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 512, 32) → 0.0087
+hd=32 heads=8 units=(1024, 512, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 512, 16) → 0.0087
+hd=32 heads=8 units=(1024, 512, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 256, 256) → 0.0088
+hd=32 heads=8 units=(1024, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 256, 128) → 0.0090
+hd=32 heads=8 units=(1024, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 256, 64) → 0.0089
+hd=32 heads=8 units=(1024, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 256, 32) → 0.0094
+hd=32 heads=8 units=(1024, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 256, 16) → 0.0093
+hd=32 heads=8 units=(1024, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 128, 128) → 0.0086
+hd=32 heads=8 units=(1024, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 128, 64) → 0.0095
+hd=32 heads=8 units=(1024, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 128, 32) → 0.0099
+hd=32 heads=8 units=(1024, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 128, 16) → 0.0097
+hd=32 heads=8 units=(1024, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 64, 64) → 0.0093
+hd=32 heads=8 units=(1024, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 64, 32) → 0.0097
+hd=32 heads=8 units=(1024, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 64, 16) → 0.0097
+hd=32 heads=8 units=(1024, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 32, 32) → 0.0099
+hd=32 heads=8 units=(1024, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 32, 16) → 0.0097
+hd=32 heads=8 units=(1024, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=32 heads=8 units=(1024, 16, 16) → 0.0098
+hd=32 heads=8 units=(1024, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(32, 32, 32) → 0.0111
+hd=64 heads=4 units=(32, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(32, 32, 16) → 0.0118
+hd=64 heads=4 units=(32, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(32, 16, 16) → 0.0116
+hd=64 heads=4 units=(32, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(64, 64, 64) → 0.0100
+hd=64 heads=4 units=(64, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(64, 64, 32) → 0.0104
+hd=64 heads=4 units=(64, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(64, 64, 16) → 0.0105
+hd=64 heads=4 units=(64, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(64, 32, 32) → 0.0109
+hd=64 heads=4 units=(64, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(64, 32, 16) → 0.0107
+hd=64 heads=4 units=(64, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(64, 16, 16) → 0.0112
+hd=64 heads=4 units=(64, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 128, 128) → 0.0095
+hd=64 heads=4 units=(128, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 128, 64) → 0.0100
+hd=64 heads=4 units=(128, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 128, 32) → 0.0097
+hd=64 heads=4 units=(128, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 128, 16) → 0.0099
+hd=64 heads=4 units=(128, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 64, 64) → 0.0100
+hd=64 heads=4 units=(128, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 64, 32) → 0.0101
+hd=64 heads=4 units=(128, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 64, 16) → 0.0102
+hd=64 heads=4 units=(128, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 32, 32) → 0.0103
+hd=64 heads=4 units=(128, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 32, 16) → 0.0108
+hd=64 heads=4 units=(128, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(128, 16, 16) → 0.0116
+hd=64 heads=4 units=(128, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 256, 256) → 0.0094
+hd=64 heads=4 units=(256, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 256, 128) → 0.0094
+hd=64 heads=4 units=(256, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 256, 64) → 0.0101
+hd=64 heads=4 units=(256, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 256, 32) → 0.0098
+hd=64 heads=4 units=(256, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 256, 16) → 0.0097
+hd=64 heads=4 units=(256, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 128, 128) → 0.0096
+hd=64 heads=4 units=(256, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 128, 64) → 0.0095
+hd=64 heads=4 units=(256, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 128, 32) → 0.0098
+hd=64 heads=4 units=(256, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 128, 16) → 0.0106
+hd=64 heads=4 units=(256, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 64, 64) → 0.0098
+hd=64 heads=4 units=(256, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 64, 32) → 0.0097
+hd=64 heads=4 units=(256, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 64, 16) → 0.0101
+hd=64 heads=4 units=(256, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 32, 32) → 0.0101
+hd=64 heads=4 units=(256, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 32, 16) → 0.0106
+hd=64 heads=4 units=(256, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(256, 16, 16) → 0.0115
+hd=64 heads=4 units=(256, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 512, 512) → 0.0086
+hd=64 heads=4 units=(512, 512, 512) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 512, 256) → 0.0084
+hd=64 heads=4 units=(512, 512, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 512, 128) → 0.0087
+hd=64 heads=4 units=(512, 512, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 512, 64) → 0.0088
+hd=64 heads=4 units=(512, 512, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 512, 32) → 0.0090
+hd=64 heads=4 units=(512, 512, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 512, 16) → 0.0094
+hd=64 heads=4 units=(512, 512, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 256, 256) → 0.0086
+hd=64 heads=4 units=(512, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 256, 128) → 0.0091
+hd=64 heads=4 units=(512, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 256, 64) → 0.0088
+hd=64 heads=4 units=(512, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 256, 32) → 0.0092
+hd=64 heads=4 units=(512, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 256, 16) → 0.0094
+hd=64 heads=4 units=(512, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 128, 128) → 0.0092
+hd=64 heads=4 units=(512, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 128, 64) → 0.0097
+hd=64 heads=4 units=(512, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 128, 32) → 0.0092
+hd=64 heads=4 units=(512, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 128, 16) → 0.0097
+hd=64 heads=4 units=(512, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 64, 64) → 0.0095
+hd=64 heads=4 units=(512, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 64, 32) → 0.0096
+hd=64 heads=4 units=(512, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 64, 16) → 0.0100
+hd=64 heads=4 units=(512, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 32, 32) → 0.0108
+hd=64 heads=4 units=(512, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 32, 16) → 0.0103
+hd=64 heads=4 units=(512, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(512, 16, 16) → 0.0103
+hd=64 heads=4 units=(512, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 1024, 1024) → 0.0079
+hd=64 heads=4 units=(1024, 1024, 1024) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 1024, 512) → 0.0094
+hd=64 heads=4 units=(1024, 1024, 512) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 1024, 256) → 0.0081
+hd=64 heads=4 units=(1024, 1024, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 1024, 128) → 0.0084
+hd=64 heads=4 units=(1024, 1024, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 1024, 64) → 0.0088
+hd=64 heads=4 units=(1024, 1024, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 1024, 32) → 0.0091
+hd=64 heads=4 units=(1024, 1024, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 1024, 16) → 0.0088
+hd=64 heads=4 units=(1024, 1024, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 512, 512) → 0.0085
+hd=64 heads=4 units=(1024, 512, 512) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 512, 256) → 0.0093
+hd=64 heads=4 units=(1024, 512, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 512, 128) → 0.0085
+hd=64 heads=4 units=(1024, 512, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 512, 64) → 0.0086
+hd=64 heads=4 units=(1024, 512, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 512, 32) → 0.0089
+hd=64 heads=4 units=(1024, 512, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 512, 16) → 0.0092
+hd=64 heads=4 units=(1024, 512, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 256, 256) → 0.0082
+hd=64 heads=4 units=(1024, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 256, 128) → 0.0088
+hd=64 heads=4 units=(1024, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 256, 64) → 0.0093
+hd=64 heads=4 units=(1024, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 256, 32) → 0.0095
+hd=64 heads=4 units=(1024, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 256, 16) → 0.0092
+hd=64 heads=4 units=(1024, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 128, 128) → 0.0088
+hd=64 heads=4 units=(1024, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 128, 64) → 0.0091
+hd=64 heads=4 units=(1024, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 128, 32) → 0.0090
+hd=64 heads=4 units=(1024, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 128, 16) → 0.0095
+hd=64 heads=4 units=(1024, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 64, 64) → 0.0090
+hd=64 heads=4 units=(1024, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 64, 32) → 0.0097
+hd=64 heads=4 units=(1024, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 64, 16) → 0.0097
+hd=64 heads=4 units=(1024, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 32, 32) → 0.0096
+hd=64 heads=4 units=(1024, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 32, 16) → 0.0100
+hd=64 heads=4 units=(1024, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=4 units=(1024, 16, 16) → 0.0101
+hd=64 heads=4 units=(1024, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(32, 32, 32) → 0.0100
+hd=64 heads=8 units=(32, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(32, 32, 16) → 0.0101
+hd=64 heads=8 units=(32, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(32, 16, 16) → 0.0109
+hd=64 heads=8 units=(32, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(64, 64, 64) → 0.0096
+hd=64 heads=8 units=(64, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(64, 64, 32) → 0.0099
+hd=64 heads=8 units=(64, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(64, 64, 16) → 0.0095
+hd=64 heads=8 units=(64, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(64, 32, 32) → 0.0101
+hd=64 heads=8 units=(64, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(64, 32, 16) → 0.0097
+hd=64 heads=8 units=(64, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(64, 16, 16) → 0.0099
+hd=64 heads=8 units=(64, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 128, 128) → 0.0089
+hd=64 heads=8 units=(128, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 128, 64) → 0.0093
+hd=64 heads=8 units=(128, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 128, 32) → 0.0090
+hd=64 heads=8 units=(128, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 128, 16) → 0.0093
+hd=64 heads=8 units=(128, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 64, 64) → 0.0090
+hd=64 heads=8 units=(128, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 64, 32) → 0.0092
+hd=64 heads=8 units=(128, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 64, 16) → 0.0095
+hd=64 heads=8 units=(128, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 32, 32) → 0.0093
+hd=64 heads=8 units=(128, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 32, 16) → 0.0101
+hd=64 heads=8 units=(128, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(128, 16, 16) → 0.0104
+hd=64 heads=8 units=(128, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 256, 256) → 0.0083
+hd=64 heads=8 units=(256, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 256, 128) → 0.0081
+hd=64 heads=8 units=(256, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 256, 64) → 0.0088
+hd=64 heads=8 units=(256, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 256, 32) → 0.0087
+hd=64 heads=8 units=(256, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 256, 16) → 0.0092
+hd=64 heads=8 units=(256, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 128, 128) → 0.0087
+hd=64 heads=8 units=(256, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 128, 64) → 0.0084
+hd=64 heads=8 units=(256, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 128, 32) → 0.0090
+hd=64 heads=8 units=(256, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 128, 16) → 0.0088
+hd=64 heads=8 units=(256, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 64, 64) → 0.0088
+hd=64 heads=8 units=(256, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 64, 32) → 0.0090
+hd=64 heads=8 units=(256, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 64, 16) → 0.0093
+hd=64 heads=8 units=(256, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 32, 32) → 0.0089
+hd=64 heads=8 units=(256, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 32, 16) → 0.0099
+hd=64 heads=8 units=(256, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(256, 16, 16) → 0.0103
+hd=64 heads=8 units=(256, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 512, 512) → 0.0080
+hd=64 heads=8 units=(512, 512, 512) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 512, 256) → 0.0082
+hd=64 heads=8 units=(512, 512, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 512, 128) → 0.0079
+hd=64 heads=8 units=(512, 512, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 512, 64) → 0.0087
+hd=64 heads=8 units=(512, 512, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 512, 32) → 0.0088
+hd=64 heads=8 units=(512, 512, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 512, 16) → 0.0087
+hd=64 heads=8 units=(512, 512, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 256, 256) → 0.0083
+hd=64 heads=8 units=(512, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 256, 128) → 0.0084
+hd=64 heads=8 units=(512, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 256, 64) → 0.0085
+hd=64 heads=8 units=(512, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 256, 32) → 0.0088
+hd=64 heads=8 units=(512, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 256, 16) → 0.0091
+hd=64 heads=8 units=(512, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 128, 128) → 0.0087
+hd=64 heads=8 units=(512, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 128, 64) → 0.0089
+hd=64 heads=8 units=(512, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 128, 32) → 0.0089
+hd=64 heads=8 units=(512, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 128, 16) → 0.0088
+hd=64 heads=8 units=(512, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 64, 64) → 0.0088
+hd=64 heads=8 units=(512, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 64, 32) → 0.0093
+hd=64 heads=8 units=(512, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 64, 16) → 0.0092
+hd=64 heads=8 units=(512, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 32, 32) → 0.0090
+hd=64 heads=8 units=(512, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 32, 16) → 0.0094
+hd=64 heads=8 units=(512, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(512, 16, 16) → 0.0095
+hd=64 heads=8 units=(512, 16, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 1024, 1024) → 0.0085
+hd=64 heads=8 units=(1024, 1024, 1024) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 1024, 512) → 0.0077
+hd=64 heads=8 units=(1024, 1024, 512) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 1024, 256) → 0.0079
+hd=64 heads=8 units=(1024, 1024, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 1024, 128) → 0.0082
+hd=64 heads=8 units=(1024, 1024, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 1024, 64) → 0.0085
+hd=64 heads=8 units=(1024, 1024, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 1024, 32) → 0.0099
+hd=64 heads=8 units=(1024, 1024, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 1024, 16) → 0.0084
+hd=64 heads=8 units=(1024, 1024, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 512, 512) → 0.0075
+hd=64 heads=8 units=(1024, 512, 512) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 512, 256) → 0.0090
+hd=64 heads=8 units=(1024, 512, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 512, 128) → 0.0082
+hd=64 heads=8 units=(1024, 512, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 512, 64) → 0.0083
+hd=64 heads=8 units=(1024, 512, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 512, 32) → 0.0087
+hd=64 heads=8 units=(1024, 512, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 512, 16) → 0.0091
+hd=64 heads=8 units=(1024, 512, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 256, 256) → 0.0082
+hd=64 heads=8 units=(1024, 256, 256) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 256, 128) → 0.0084
+hd=64 heads=8 units=(1024, 256, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 256, 64) → 0.0089
+hd=64 heads=8 units=(1024, 256, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 256, 32) → 0.0089
+hd=64 heads=8 units=(1024, 256, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 256, 16) → 0.0093
+hd=64 heads=8 units=(1024, 256, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 128, 128) → 0.0082
+hd=64 heads=8 units=(1024, 128, 128) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 128, 64) → 0.0085
+hd=64 heads=8 units=(1024, 128, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 128, 32) → 0.0087
+hd=64 heads=8 units=(1024, 128, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 128, 16) → 0.0092
+hd=64 heads=8 units=(1024, 128, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 64, 64) → 0.0096
+hd=64 heads=8 units=(1024, 64, 64) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 64, 32) → 0.0091
+hd=64 heads=8 units=(1024, 64, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 64, 16) → 0.0091
+hd=64 heads=8 units=(1024, 64, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 32, 32) → 0.0094
+hd=64 heads=8 units=(1024, 32, 32) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 32, 16) → 0.0092
+hd=64 heads=8 units=(1024, 32, 16) → Expecting value: line 1 column 1 (char 0)
+hd=64 heads=8 units=(1024, 16, 16) → 0.0092
+hd=64 heads=8 units=(1024, 16, 16) → Expecting value: line 1 column 1 (char 0)

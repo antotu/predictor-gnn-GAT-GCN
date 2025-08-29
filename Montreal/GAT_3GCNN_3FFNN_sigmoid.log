@@ -1,0 +1,32 @@
+INFO: localdir at /scratch/1198950.atudisco
+INFO: your job will run on local system.
+Could not find conda environment: gnn_py10y
+You can list all discoverable environments with `conda info --envs`.
+
+# conda environments:
+#
+base                  *  /home/atudisco/miniconda3
+gnn                      /home/atudisco/miniconda3/envs/gnn
+gnn_py10                 /home/atudisco/miniconda3/envs/gnn_py10
+
+# conda environments:
+#
+base                  *  /home/atudisco/miniconda3
+gnn                      /home/atudisco/miniconda3/envs/gnn
+gnn_py10                 /home/atudisco/miniconda3/envs/gnn_py10
+
+# packages in environment at /home/atudisco/miniconda3:
+#
+# Name                    Version                   Build  Channel
+scikit-learn              1.6.1                    pypi_0    pypi
+Running on host: compute-3-25
+CUDA Devices: 2,3
+Python version: Python 3.9.5
+Conda environment: /home/atudisco/miniconda3/bin/python
+Installed Python packages:
+torch                    2.6.0+cu118
+torch-geometric          2.6.1
+torchaudio               2.6.0+cu118
+torchvision              0.21.0+cu118
+scikit-learn             1.6.1
+slurmstepd: error: *** JOB 1198950 ON compute-3-25 CANCELLED AT 2025-06-10T00:50:39 DUE TO TIME LIMIT ***
